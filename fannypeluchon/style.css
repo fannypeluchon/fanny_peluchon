@@ -1,0 +1,157 @@
+
+ul{
+    list-style-type: none;
+    height: auto;
+    position: relative;
+    padding: 12px 12px;
+    margin: 0px;
+    color:black;
+}
+
+.navbar{
+  width:1350px;
+}
+
+.navbar li{
+  display: inline;
+  position: relative;
+  padding: 0px 9px 0px 9px;
+  float:right;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.signin{
+  font-color: white;
+  line-height: 28px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  top:-5px;
+  background-color: #4285F4;
+  height: 28px;
+  width: 67px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 2px;
+}
+
+.refsignin{
+  color:white;
+}
+
+.refsignin:hover{
+  text-decoration: none;
+}
+
+.signin:active{
+  background-color:#4285F4; text-decoration: none
+}
+
+.notif:hover{
+  text-decoration: none;
+}
+
+.appicon{
+  padding-top: 2px;
+}
+
+.logo{
+  margin-top:80px;
+  margin-left: 541px;
+  padding-top: 80px;
+}
+
+.searchbar{
+  height:88px;
+  width:100%px;
+  padding: 0 284px 0 284px;
+}
+
+.inputbox input{
+  position: relative;
+  width:570px; 
+  height:38px;
+  right: -105px;
+  bottom: -19px;
+  border: solid 1px #DCDCDC; 
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  box-shadow: 2px 2px 1px 1px #F2F2F2;
+}
+
+
+.micro{
+  position :relative;
+  bottom: -24px;
+  right:-70px;
+}
+
+.button1,.button2{
+  position: relative;
+  width:160px;
+  height: 40px;
+  margin:20px 0px;
+  background-color: #f5f5f5; 
+  border-radius: 2px;
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  right:-230px;
+  bottom:-10px;
+  color: #766F64;
+  font-weight: bold;
+  border:none;
+}
+
+.button2{
+  width:160px;
+  height:40px;
+}
+.button1:hover,.button2:hover{
+  border: 1px solid #CCCCCC;
+  color: black;
+}
+
+.footer{
+  position: relative;
+  background-color: #F2F2F2;
+  height:35px;
+  bottom: -215px;
+  left:-14px;
+  right:-14px;
+  width:1370px;
+}
+
+.footer ul li{
+  position: relative;
+  bottom: 3px;
+  left:-9px;
+  padding: 0px 10px 0px 10px;
+  display: inline;
+  font-size: 9px;
+  font-family: Arial;
+  margin-left: 30px;
+}
+
+.footer li a{
+  color:#766F64;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
